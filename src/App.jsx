@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
+import ServiceSummary from "./sections/ServiceSummary";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       {/* NAVBAR------------------------------- */}
       <Navbar />
       <Hero />
+      <ServiceSummary />
     </div>
   );
 };
