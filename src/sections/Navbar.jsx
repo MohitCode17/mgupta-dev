@@ -18,10 +18,10 @@ const Navbar = () => {
 
   // SETTING UP GSAP ANIMATION TO NAVBAR
   useGSAP(() => {
-    gsap.set(navRef.current, { xPercent: 100 }); // HIDE THE ENTIRE NAVBAR OFF-SCREEN TO THE RIGHT
+    gsap.set(navRef.current, { xPercent: 100 });
     gsap.set([linksRef.current, contactRef.current], {
-      autoAlpha: 0, // SHORTCUT FOR OPACITY = 0 & VISIBILITY = HIDDEN
-      x: -20, // PUSH 20PX TO LEFT
+      autoAlpha: 0,
+      x: -20,
     });
 
     // CREATING PAUSED TIMELIME SO THAT WE CAN PLAY/REVERSE LATER. SO WHAT I MEAN BY THAT WHEN THE USER CLICKS ON THIS MENU ICON ANIMATIONS WILL GOING TO START
@@ -107,10 +107,10 @@ const Navbar = () => {
       {/* NAVIGATION BAR */}
       <nav
         ref={navRef}
-        className="fixed z-50 flex flex-col justify-between w-full h-full bg-black text-white/80 px-10 uppercase py-28 gap-y-10 md:w-1/2 md:left-1/2"
+        className="fixed z-50 flex flex-col justify-between w-full h-full bg-black text-white/80 px-5 sm:px-10 uppercase py-28 gap-y-10 md:w-1/2 md:left-1/2"
       >
         {/* NAVIGATION LINKS WRAPPER */}
-        <div className="flex flex-col gap-y-2 text-5xl md:text-6xl lg:text-8xl">
+        <div className="flex flex-col gap-y-2 text-4xl sm:text-5xl md:text-6xl lg:text-[78px]">
           {/* NAVIGATION LINKS */}
           {["home", "services", "about", "work", "contact"].map(
             (section, index) => (
@@ -136,7 +136,7 @@ const Navbar = () => {
         >
           <div className="font-light">
             <p className="tracking-wider text-white/50">E-mail</p>
-            <p className="text-xl tracking-widest lowercase text-pretty">
+            <p className="sm:text-xl tracking-wider sm:tracking-widest lowercase text-pretty">
               official.codewithmohit@gmail.com
             </p>
           </div>
