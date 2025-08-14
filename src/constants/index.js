@@ -1,7 +1,7 @@
 // index.js
 export const servicesData = [
   {
-    title: "Full-Stack Web Development",
+    title: "Full Stack Web Development",
     description:
       "From concept to deployment, I build fast, scalable, and reliable websites and web apps that bring your vision to life. Clean code, optimized databases, and smooth functionality—crafted for performance and growth.",
     items: [
@@ -41,7 +41,7 @@ export const servicesData = [
     ],
   },
   {
-    title: "E-Commerce & Shopify Development",
+    title: "Shopify Development",
     description:
       "Sell smarter with a fully functional online store. I create Shopify and custom e-commerce solutions that are secure, easy to manage, and optimized for conversions.",
     items: [
@@ -79,12 +79,12 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Gyaanik - Used Bookstore",
+    name: "Gyaanik - Bookstore Ecommerce App",
     description:
       "Buy & sell used books with advanced filters, sorting, and pagination. Secure auth (JWT, cookies, email verification), Razorpay payments, Cloudinary uploads, and an admin dashboard. Built with Next.js, Express, Node.js, MongoDB, and Tailwind CSS.",
     href: "",
-    image: "/assets/projects/plant-shop.jpg",
-    bgImage: "/assets/backgrounds/blanket.jpg",
+    image: "/assets/projects/gyaanik.png",
+    bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
       { id: 1, name: "Next.js" },
       { id: 2, name: "Node.js" },
@@ -100,7 +100,7 @@ export const projects = [
     description:
       "Pizza ordering app with microservices for auth, billing, orders, coupons, and real-time tracking. Dynamic pricing by size/toppings, Stripe payments, RSA-secure auth with PostgreSQL, and MongoDB for orders/billing. Built with Next.js, Node.js, and Express.",
     href: "",
-    image: "/assets/projects/electronics-store.jpg",
+    image: "/assets/projects/pizza.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "Next.js" },
@@ -112,11 +112,11 @@ export const projects = [
   },
   {
     id: 3,
-    name: "SkillX - AI Career Coach",
+    name: "SkilliX - AI Career Coach",
     description:
       "AI-powered career platform with personalized onboarding, career insights, AI quizzes, and built-in resume & cover letter tools.",
     href: "",
-    image: "/assets/projects/game-store.jpg",
+    image: "/assets/projects/skillix.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
       { id: 1, name: "Next.js" },
@@ -125,6 +125,52 @@ export const projects = [
       { id: 4, name: "NeonDB" },
       { id: 5, name: "Clerk" },
       { id: 6, name: "Gemini" },
+    ],
+  },
+  {
+    id: 4,
+    name: "NextRide - Marketplace for Bikes & EVs",
+    description: "https://nextride-marketplace.vercel.app/",
+    href: "https://nextride-marketplace.vercel.app/",
+    image: "/assets/projects/nextride.png",
+    bgImage: "/assets/backgrounds/poster.jpg",
+    frameworks: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "Shadcn" },
+      { id: 3, name: "Supabase" },
+      { id: 5, name: "Clerk" },
+      { id: 6, name: "Gemini" },
+    ],
+  },
+  {
+    id: 5,
+    name: "Neofit - AI Fitness Coach",
+    description: "",
+    href: "https://neofit-ai.vercel.app/",
+    image: "/assets/projects/neofit.png",
+    bgImage: "/assets/backgrounds/poster.jpg",
+    frameworks: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "Shadcn" },
+      { id: 3, name: "Tailwind" },
+      { id: 4, name: "Convex" },
+      { id: 5, name: "Clerk" },
+      { id: 6, name: "Gemini & Vapi" },
+    ],
+  },
+  {
+    id: 6,
+    name: "Stremora - Video Calling & Chat App",
+    description: "",
+    href: "https://stremora.onrender.com/",
+    image: "/assets/projects/stremora.png",
+    bgImage: "/assets/backgrounds/poster.jpg",
+    frameworks: [
+      { id: 1, name: "React" },
+      { id: 2, name: "Node.js" },
+      { id: 3, name: "Tailwind" },
+      { id: 4, name: "MongoDB" },
+      { id: 5, name: "Stremify" },
     ],
   },
 ];
