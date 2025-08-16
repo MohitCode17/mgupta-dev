@@ -82,7 +82,7 @@ export const projects = [
     name: "Gyaanik - Bookstore Ecommerce App",
     description:
       "Buy & sell used books with advanced filters, sorting, and pagination. Secure auth (JWT, cookies, email verification), Razorpay payments, Cloudinary uploads, and an admin dashboard. Built with Next.js, Express, Node.js, MongoDB, and Tailwind CSS.",
-    href: "",
+    href: "#",
     image: "/assets/projects/gyaanik.png",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
@@ -99,7 +99,7 @@ export const projects = [
     name: "Pizza - Microservices App",
     description:
       "Pizza ordering app with microservices for auth, billing, orders, coupons, and real-time tracking. Dynamic pricing by size/toppings, Stripe payments, RSA-secure auth with PostgreSQL, and MongoDB for orders/billing. Built with Next.js, Node.js, and Express.",
-    href: "",
+    href: "#",
     image: "/assets/projects/pizza.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
@@ -115,7 +115,7 @@ export const projects = [
     name: "SkilliX - AI Career Coach",
     description:
       "AI-powered career platform with personalized onboarding, career insights, AI quizzes, and built-in resume & cover letter tools.",
-    href: "",
+    href: "#",
     image: "/assets/projects/skillix.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
