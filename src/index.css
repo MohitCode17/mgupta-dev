@@ -107,8 +107,8 @@
 }
 
 body {
-  background: #e5e5e0;
-  color: black;
+  background: #000000;
+  color: #e4e5df;
   scroll-behavior: smooth;
   overflow-x: hidden;
   font-family: var(--font-amiamie);

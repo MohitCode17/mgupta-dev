@@ -6,7 +6,7 @@ gsap.registerPlugin(Observer);
 
 const Marquee = ({
   items,
-  className = "text-white bg-black",
+  className = "text-black bg-white",
   icon = "mdi:star-four-points",
   iconClassName = "",
   reverse = false,

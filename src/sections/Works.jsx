@@ -101,7 +101,7 @@ and lasting impact.`;
         subTitle={"Where Creativity Meets Code"}
         title={"Works"}
         text={text}
-        textColor={"text-black"}
+        textColor={"text-white"}
         withScrollTrigger={true}
       />
 
@@ -123,11 +123,11 @@ and lasting impact.`;
                 ref={(el) => {
                   overlayRefs.current[index] = el;
                 }}
-                className="absolute inset-0 hidden md:block duration-200 bg-black -z-10 clip-path"
+                className="absolute inset-0 hidden md:block duration-200 bg-white -z-10 clip-path"
               />
 
               {/* TITLE */}
-              <div className="flex justify-between px-5 sm:px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
+              <div className="flex justify-between px-5 sm:px-10 text-white transition-all duration-500 md:group-hover:px-12 md:group-hover:text-black">
                 <h2 className="lg:text-[32px] text-[26px] leading-none">
                   {project.name}
                 </h2>
@@ -138,14 +138,14 @@ and lasting impact.`;
               </div>
 
               {/* DIVIDER */}
-              <div className="w-full h-0.5 bg-black/80" />
+              <div className="w-full h-0.5 bg-white/80" />
 
               {/* TECHNOLOGIES */}
               <div className="flex flex-wrap px-5 sm:px-10 text-xs leading-loose uppercase transtion-all duration-500 md:text-sm gap-x-5 md:group-hover:px-12">
                 {project.frameworks.map((framework) => (
                   <p
                     key={framework.id}
-                    className="text-black transition-colors duration-500 md:group-hover:text-white"
+                    className="text-white/60 transition-colors duration-500 md:group-hover:text-black"
                   >
                     {framework.name}
                   </p>
@@ -172,7 +172,7 @@ and lasting impact.`;
         {/* DESKTOP FLOATING PREVIEW IMAGE */}
         <div
           ref={previewRef}
-          className="fixed -top-2/6 left-0 z-50 overflow-hidden border-8 border-black pointer-events-none w-[760px] md:block hidden opacity-0"
+          className="fixed -top-2/6 left-0 z-50 overflow-hidden border-8 border-white/80 pointer-events-none w-[760px] md:block hidden opacity-0"
         >
           {currentIndex !== null && (
             <img

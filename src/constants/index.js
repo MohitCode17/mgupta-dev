@@ -160,10 +160,10 @@ export const projects = [
   },
   {
     id: 6,
-    name: "Stremora - Video Calling & Chat App",
+    name: "Nomibless – Shopify E-commerce Store",
     description: "",
-    href: "https://stremora.onrender.com/",
-    image: "/assets/projects/stremora.png",
+    href: "https://nomibless.com/",
+    image: "/assets/projects/nomibless.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
       { id: 1, name: "React" },
