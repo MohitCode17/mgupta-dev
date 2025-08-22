@@ -81,8 +81,8 @@ export const projects = [
     id: 1,
     name: "Gyaanik - Bookstore Ecommerce App",
     description:
-      "Buy & sell used books with advanced filters, sorting, and pagination. Secure auth (JWT, cookies, email verification), Razorpay payments, Cloudinary uploads, and an admin dashboard. Built with Next.js, Express, Node.js, MongoDB, and Tailwind CSS.",
-    href: "#",
+      "A fullstack bookstore app to sell used books with advanced filters, sorting, and pagination. Secure auth (JWT, cookies, email verification), Razorpay payments, Cloudinary uploads, profile management and an admin dashboard.",
+    href: "https://github.com/MohitCode17/gyaanik-ecommerce-app-client",
     image: "/assets/projects/gyaanik.png",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
@@ -98,7 +98,7 @@ export const projects = [
     id: 2,
     name: "Pizza - Microservices App",
     description:
-      "Pizza ordering app with microservices for auth, billing, orders, coupons, and real-time tracking. Dynamic pricing by size/toppings, Stripe payments, RSA-secure auth with PostgreSQL, and MongoDB for orders/billing. Built with Next.js, Node.js, and Express.",
+      "A microservices-based pizza ordering app with real-time order tracking via WebSockets, dynamic pricing, and secure Stripe payments. Secure authentication with PostgreSQL, MongoDB for orders and billing, Kafka for event-driven communication, and Docker for containerized deployment.",
     href: "#",
     image: "/assets/projects/pizza.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
@@ -108,14 +108,15 @@ export const projects = [
       { id: 3, name: "Express" },
       { id: 4, name: "PostgreSQL" },
       { id: 5, name: "MongoDB" },
+      { id: 6, name: "Docker" },
     ],
   },
   {
     id: 3,
     name: "SkilliX - AI Career Coach",
     description:
-      "AI-powered career platform with personalized onboarding, career insights, AI quizzes, and built-in resume & cover letter tools.",
-    href: "#",
+      "An AI-powered career platform offering personalized onboarding, intelligent career insights, AI-driven quizzes, and built-in tools for crafting professional resumes and cover letters to boost career growth.",
+    href: "https://github.com/MohitCode17/skillix",
     image: "/assets/projects/skillix.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
@@ -130,7 +131,8 @@ export const projects = [
   {
     id: 4,
     name: "NextRide - Marketplace for Bikes & EVs",
-    description: "https://nextride-marketplace.vercel.app/",
+    description:
+      "A full-stack marketplace for bikes and EVs featuring ride listings, filtering, EMI calculator, and test drive scheduling. Integrated Gemini AI for auto-filling ride details, Clerk for authentication, and an admin dashboard to manage rides, bookings, users, and inventory.",
     href: "https://nextride-marketplace.vercel.app/",
     image: "/assets/projects/nextride.png",
     bgImage: "/assets/backgrounds/poster.jpg",
@@ -145,7 +147,8 @@ export const projects = [
   {
     id: 5,
     name: "Neofit - AI Fitness Coach",
-    description: "",
+    description:
+      "An AI-powered fitness coach that generates personalized diet plans and workout routines using Gemini and Vapi APIs. Built with Next.js, Convex, Shadcn, and Clerk for authentication, offering a seamless and interactive user experience.",
     href: "https://neofit-ai.vercel.app/",
     image: "/assets/projects/neofit.png",
     bgImage: "/assets/backgrounds/poster.jpg",
@@ -161,7 +164,8 @@ export const projects = [
   {
     id: 6,
     name: "Nomibless – Shopify E-commerce Store",
-    description: "",
+    description:
+      "Built a Shopify e-commerce store for beauty products as a freelance project, customizing themes, optimizing UI/UX, and integrating razorpay payment gateways for a seamless shopping experience.",
     href: "https://nomibless.com/",
     image: "/assets/projects/nomibless.png",
     bgImage: "/assets/backgrounds/poster.jpg",

@@ -137,8 +137,13 @@ and lasting impact.`;
                 />
               </div>
 
+              {/* DESCRIPTION */}
+              <p className="px-5 sm:px-10 mt-2 mb-1 text-white/60 text-sm leading-relaxed md:group-hover:text-black transition-all duration-500 max-w-2xl">
+                {project.description}
+              </p>
+
               {/* DIVIDER */}
-              <div className="w-full h-0.5 bg-white/80" />
+              <div className="w-full h-0.5 bg-white/80 group-hover:bg-black transition-all duration-500" />
 
               {/* TECHNOLOGIES */}
               <div className="flex flex-wrap px-5 sm:px-10 text-xs leading-loose uppercase transtion-all duration-500 md:text-sm gap-x-5 md:group-hover:px-12">
