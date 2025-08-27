@@ -1,6 +1,11 @@
+import { useGSAP } from "@gsap/react";
 import Marquee from "../components/Marquee";
+import { useRef } from "react";
+import gsap from "gsap";
 
 const ContactSummary = () => {
+  const containerRef = useRef(null);
+
   const items = [
     "Curiosity",
     "Craftsmanship",
@@ -17,8 +22,25 @@ const ContactSummary = () => {
     "contact us",
   ];
 
+  useGSAP(() => {
+    gsap.to(containerRef.current, {
+      scrollTrigger: {
+        trigger: containerRef.current,
+        start: "center center",
+        end: "+=800 center",
+        scrub: 0.5,
+        pin: true,
+        pinSpacing: true,
+        markers: false,
+      },
+    });
+  }, []);
+
   return (
-    <section className="flex flex-col items-center justify-between min-h-screen gap-12 mt-16">
+    <section
+      ref={containerRef}
+      className="flex flex-col items-center justify-between min-h-screen gap-12 mt-16"
+    >
       {/* MARQUEE ANIMATION */}
       <Marquee items={items} />
 
